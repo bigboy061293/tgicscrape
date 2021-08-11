@@ -1,4 +1,5 @@
 #from autologin import AutoLogin
+#this main could not be used
 import requests
 from lxml import html
 import re
@@ -17,8 +18,8 @@ authenticity_token = list(set(tree.xpath("//input[@name='_token']/@value")))[0]
 
 
 payload = {
-    "email":"bigboy.061293@gmail.com",
-    "password":"runtoyou",
+    "email":"bigboy.**@gmail.com",
+    "password":"***",
     "_token":authenticity_token
 }
 result = session_requests.post(

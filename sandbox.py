@@ -18,8 +18,8 @@ authenticity_token = list(set(tree.xpath("//input[@name='_token']/@value")))[0]
 tongcong = 0
 
 payload = {
-	"email":"bigboy.061293@gmail.com",
-	"password":"runtoyou",
+	"email":"bigb***@gmail.com",
+	"password":"***",
 	"_token":authenticity_token
 }
 result = session_requests.post(

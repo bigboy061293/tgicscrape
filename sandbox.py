@@ -130,7 +130,6 @@ while True:
 				if (len(tr[i]) == 5):
 					
 					tdd = tr[i].xpath('.//td')
-					
 					# print(tdd[0].xpath('.//text()')[0])
 					stt = tdd[0].xpath('.//text()')[0]
 					# print(tdd[1].xpath('.//a/text()')[0].strip())

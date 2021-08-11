@@ -75,7 +75,6 @@ while True:
 			url, 
 			headers = dict(referer = url)
 		)
-
 		doc = html.fromstring(result.content)
 		
 		try:
